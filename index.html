@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bem vindo</title>
+</head>
+<body>
+    <header>
+        <h1>Sinalize Libras</h1>
+    </header>
+    <main>
+        <section>
+            <!-- Campo de pesquisa -->
+            <input id="pesquisa" type="text" placeholder="Ex.: Te amo!">
+            <button id="buscar">Ver em Libras</button>
+        </section>
+        <!-- Resultados da pesquisa -->
+        <section id="resultados" class="resultados-pesquisa">
+            <!-- Aqui aparecerão os resultados da pesquisa -->
+            
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados.2024. Desenvolvido por Gilrlane Costa.</p>
+        <p>Contato: gilrlane.analysys@gmail.com</p>
+    </footer>
+     <!-- Scripts -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+     <!-- Script do VLibras -->
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app')</script>
+</body>
+</html>
