@@ -33,7 +33,7 @@ let dados = [
    const bancoDePalavras = [
     {
         palavra: "Te Amo",
-        sinonimos: ["amo você", "eu te amo", "amo tu", "amo vc", "amo", "te amo", "amo voce", "TE AMO", "Amo vc"],
+        sinonimos: ["amo você", "eu te amo", "amo tu", "amo vc", "amo", "te amo", "amo voce", "TE AMO", "Amo vc", "love u", "love you", "i love you"],
         imagem: "teamo.jpg", // Exemplo de imagem associada
         video: "https://www.youtube.com/watch?v=470Tig_ooQU", 
         descricao: "Sinal de Te: Com a mão direita aberta, toque o peito perto do coração.Sinal de Amo: Com a mão direita em forma de A (dedos fechados e polegar estendido), faça um movimento circular sobre o peito.Esses sinais combinados transmitem a mensagem Te amo em Libras.",// Exemplo de vídeo associado
