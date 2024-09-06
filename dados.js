@@ -40,7 +40,7 @@ let dados = [
     },
     {
         palavra: "obrigado",
-        sinonimos: ["OBRIGADO", "agradeço", "agradeco", "obrigada", "obrigado"],
+        sinonimos: ["OBRIGADO", "agradeço", "agradeco", "obrigada", "obrigado", "thank u", "thank you"],
         imagem: "obrigado.jpg",
         video: "https://www.youtube.com/watch?v=s73yj4lSf94",
         descricao: "Sinal de Obrigado: Com a mão direita, toque a testa e, em seguida, faça um movimento para a frente em direção à pessoa a quem está agradecendo.",
