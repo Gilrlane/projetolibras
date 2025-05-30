@@ -24,4 +24,4 @@ Este projeto nasceu da necessidade de promover a inclusão e acessibilidade para
    git clone https://github.com/Gilrlane/projetolibras.git
 
 ## Site para testes:
-   [Clique Aqui] (https://projetolibras.vercel.app/)
+   [Clique Aqui](https://projetolibras.vercel.app/)
